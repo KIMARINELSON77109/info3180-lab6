@@ -64,10 +64,9 @@ Vue.component('news-list',{
     },
     data: function()
     {  
-        return 
-            { 
-                articles: []
-            }     
+        return {
+            articles: []
+        }     
     } 
     
 });
