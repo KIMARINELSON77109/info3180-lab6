@@ -50,7 +50,7 @@ Vue.component('news-list',{
     created: function() 
     {
         let self = this;
-        fetch('https://newsapi.org/v2/top-headlines? country=us&apiKey=<7ea93f6878f64679823d00088d8d327d>')
+        fetch('https://newsapi.org/v2/top-headlines?country=us&apiKey=7ea93f6878f64679823d00088d8d327d')
             .then(function(response)
                 {  
                     return response.json();           
